@@ -21,7 +21,7 @@ header {
     position: relative;
     overflow: hidden;
     /*background: url(https://www.tuningblog.eu/wp-content/uploads/2020/12/Rotiform-Airride-Widebody-BMW-850CSi-E31-1-1-e1607948308137.jpg) center no-repeat;*/
-    background: url('../IMG/Header.jpg') center no-repeat;
+    background: url('../IMG/Header3.jpg') center no-repeat;
     /* Image Credit: Unsplash.me */
     background-size: cover;
 }
@@ -72,7 +72,7 @@ img{
     margin-right:20px
 }
 .site {
-    padding: 20em 0;
+    padding: 12%;
     text-align: center;
     background-color: #efefef;
     font-size: .8em;
@@ -91,7 +91,7 @@ img{
     position:absolute;
     top:0;
     left:0;
-    background:#222;
+    background:#2222221f;
     width:100%
 }
 .site nav a{
@@ -100,7 +100,7 @@ img{
     display:inline-block
 }
 .site nav a:hover{
-    background:#333;
+    background:#666666d1;
     color:#fff
 }
 
@@ -183,4 +183,34 @@ img{
 /*    font-size: 120pt;*/
 /*    line-height: 0.8em;*/
 /*}*/
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typing-demo {
+    width: 27ch;
+    animation: typing 4s steps(27), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: grey;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
 
