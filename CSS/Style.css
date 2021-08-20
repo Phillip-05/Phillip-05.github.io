@@ -16,6 +16,14 @@ body {
     font-size: 1.3em;
 }
 
+.hiddenroom{
+    color: grey;
+    text-decoration: none;
+}
+.hiddenroom :hover{
+    color: grey;
+}
+
 header {
     height: 100%;
     position: relative;
