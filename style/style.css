@@ -1,0 +1,60 @@
+.header{
+    width: 100vw;
+    display: block;
+    background-color: #0166B1;
+    height: 10vh;
+}
+
+.header > div {
+    margin-top: 2vh;
+}
+
+.title{
+    margin-top: 2vh;
+}
+
+.title{
+    width: 70%;
+    float: right;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.nav{
+    width: 40%;
+    float: left;
+    color:white;
+}
+.div_placeholder{
+    width: 30%;
+    float: right;
+}
+
+.logo_title{
+    width: 30%;
+    float: left;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+body{
+    background-image: url('../resources/img/background_img.jpg');
+}
